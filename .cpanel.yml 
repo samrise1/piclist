@@ -1,4 +1,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/aoaahost/331228.xyz
- - /bin/cp test.html
+ - /bin/cp test.html $DEPLOYPATH
+ - /bin/cp test1.html $DEPLOYPATH
